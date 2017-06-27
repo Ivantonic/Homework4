@@ -1,0 +1,108 @@
+body {
+	font-family: 'Averia Libre', cursive;
+    background-image:url("background2.jpg");
+	text-align:center;
+	color:white;
+}
+
+form {
+    background-image:url("test2.jpg");
+	width:200px;
+	padding:40px;
+	margin-top:190px;
+	margin-bottom:80px;
+	text-align:right;
+	display:inline-block;
+	border:solid 2px;
+	border-color:#59D1EC;
+	border-radius: 20px;
+}
+
+label {
+	margin-top:6px;
+	float:left;
+}
+
+.nma {
+	display:inline;
+	float:left;
+
+}
+
+.description {
+	display:block;
+	float:right;
+	margin-right:23px;
+}
+
+.description2 {
+	display:block;
+	float:right;
+	margin-right:20px;
+}
+
+.sin {
+	display:inline;
+	float:left;
+}
+
+.sincount {
+	display:inline;
+}
+
+hr {
+	clear:both;
+	border-color:#59D1EC;
+}
+
+input {
+	background-color:#59D1EC;
+	border-color:#000000;
+	border-radius:7px;
+}
+
+.description:hover {
+	color:red;
+}
+.description2:hover {
+	color:red;
+}
+
+label:hover {
+	color:red;
+}
+
+.submit:hover {
+	color:red;
+}
+
+.chains1 {
+	position:absolute;
+	text-align:center;
+    top: 0px;
+    z-index: -1;
+}
+
+.submit {
+	margin-right:50px;
+	margin-top:20px;
+	background-color:white;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #000000;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #000000;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #000000;
+   opacity:  1;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}

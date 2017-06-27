@@ -1,0 +1,157 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	text-align:center;
+}
+
+header{
+	background-color:rgb(238, 238, 238);
+	text-align:left;
+	border-left:solid 1px;
+	border-right:solid 1px;
+	border-bottom:solid 1px;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+	border-color:#777777;
+    box-shadow: 5px 5px 2px #DDDDDD;
+}
+
+nav {
+	text-align:center;
+}
+
+ul {
+	margin-top:0px;
+	padding-top:8px;
+	margin-left:150px;
+}
+
+.socijalnemreze {
+	margin-left:15px;
+}
+
+button {
+	border-radius:6px;
+	color:white;
+	border:none;
+	box-shadow: 5px 5px 2px #CCCCCC;
+}
+
+.fb {
+	margin-top:5px;
+	margin-right:15px;
+	background-color:#3b5998;
+}
+
+.tw {
+	margin-top:5px;
+	background-color:#00aced;
+}
+
+.logo {
+	float:right;
+	height:80px;
+	margin-top:6px;
+	margin-right:10px;
+}
+
+li {
+	display:inline;
+    line-height: 2.3;
+	padding:8px;
+	margin-right:10px;
+	margin-left:10px;
+	border-radius:6px;
+	background-color:#990000;
+	box-shadow: 5px 5px 2px #CCCCCC;
+}
+
+a {
+	text-decoration:none;
+	color:white;
+}
+
+.container {
+	width:595px;
+	height:785px;
+	margin-top:45px;
+	padding:40px;
+	border:solid 1px;
+	display:inline-block;
+	text-align:left;
+    box-shadow: 8px 8px 4px #DDDDDD;
+
+}
+
+.tekst {
+	float:left;
+	width:280px;
+	text-align: justify;
+}
+
+.duks {
+	width:277px;
+	float:right;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: #000000;
+	clear:both;
+}
+
+h1 {
+	font-size:27px;
+}
+
+h2 {
+	padding-top:8px;
+	font-size:16px;
+}
+
+h3 {
+	font-size:15px;
+}
+
+table {
+	text-align:center;
+	width:100%;
+	border-collapse:collapse;
+}
+
+th {
+	font-weight:normal;
+	padding-top:12px;
+	padding-bottom:6px;
+}
+
+th:nth-child(-n+3) {
+	border-right:1px solid;
+	border-color:rgb(228,228,228);
+}
+
+td {
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+tr:nth-child(2n+3) {
+	background-color:rgb(228,228,228);
+}
+
+footer{
+	padding-top:20px;
+}
+
+li:hover {
+	background-color:#FF0000;
+}
+
+.fb:hover {
+	background-color:#6b96FF;
+}
+
+.tw:hover {
+	background-color:#1dcaff;
+
+}
